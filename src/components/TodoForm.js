@@ -22,6 +22,7 @@ function TodoForm(props) {
            text: Input
         });
     };
+    
     return (
         <>
             <form className="todo_form" onSubmit={forSubmit}>

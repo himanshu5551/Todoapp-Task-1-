@@ -3,6 +3,7 @@ import TodoForm from './TodoForm'
 import { AiOutlineDelete } from 'react-icons/ai';
 import { FiEdit } from 'react-icons/fi';
 import { TiTick } from 'react-icons/ti';
+
 function Todo({ todos, completeTodo, removetodo, updatetodo }) {
     let [Todo, setTodo] = useState({
         id: null,
@@ -16,11 +17,12 @@ function Todo({ todos, completeTodo, removetodo, updatetodo }) {
             value:''
         })
     }
+    
     if(Todo.id){
         
         return( 
         <div>
-        <TodoForm Todo={Todo} onSubmit={submitupdate}/>
+        <TodoForm Todo1={Todo} onSubmit={submitupdate}/>
         </div>
         );
     }
@@ -30,7 +32,7 @@ function Todo({ todos, completeTodo, removetodo, updatetodo }) {
             <div key={todo.id} onClick={() => completeTodo(todo.id)}>
                 {todo.text}
                
-                <span class="tooltiptext">click on text to mark as complete</span>
+                <span className="tooltiptext">click on text to mark as complete</span>
                
             </div>
             <div className="icons">

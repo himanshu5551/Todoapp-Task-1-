@@ -14,9 +14,9 @@ body {
   width: 30vw;
   border-radius: 25px;
   margin: 30px;
-  margin-top: 100px;
-  
+  margin-top: 100px;  
 }
+
 .todo_form{
   text-align: center;
 }
@@ -26,11 +26,12 @@ body {
   background-color: tomato;
   border-radius: 8px;
   padding: 7px;
-  left: 28vw;
+  left: 66vw;
   position: absolute;
   z-index: 1;
-  width: 15vw;
+  width: 20vw;
   text-align: center;
+ top: 37vh;
 
 }
 .todo_row{
@@ -107,14 +108,18 @@ body {
 }
 .delete_icon{
   background-color:chartreuse;
-  padding: 6px;
+  padding: 4px;
   color: black;
   border-radius: 5px;
+  width: 2vw;
+  height: auto;
  }
  .edit_icon{
   background-color:chartreuse;
-  padding: 6px;
-  color: black;
+  padding: 4px;
+  width: 2vw;
+  height: auto;
+  color: rgb(0, 0, 0);
   border-radius: 5px;
   margin-left: 10px;
  }
@@ -137,11 +142,17 @@ body {
 }
 .tick_icon{
   background-color:rgb(255, 255, 255);
-  padding: 5px;
+  padding: 4px;
+ 
+  margin-left: 15vw;
+  width: 2vw;
+  height: auto;
   color: rgb(57, 92, 37);
   border-radius: 12px;
   position: absolute;
-  left: 27vw;
+  display: flex;
+  align-items: flex-end;
+  
  
 
 }
