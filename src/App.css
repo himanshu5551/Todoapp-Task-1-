@@ -152,7 +152,39 @@ body {
   position: absolute;
   display: flex;
   align-items: flex-end;
-  
- 
+}
 
+
+@media screen and (max-width:600px)
+{
+  .delete_icon{
+    background-color:chartreuse;
+    padding: 4px;
+    color: black;
+    border-radius: 5px;
+    width: 5.5vw;
+    height: auto;
+   }
+   .edit_icon{
+    background-color:chartreuse;
+    padding: 4px;
+    width: 5.5vw;
+    height: auto;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-left: 10px;
+   }
+   .tick_icon{
+    background-color:rgb(255, 255, 255);
+    padding: 4px;
+   
+    margin-left: 15vw;
+    width: 5.5vw;
+    height: auto;
+    color: rgb(57, 92, 37);
+    border-radius: 12px;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+  }
 }
